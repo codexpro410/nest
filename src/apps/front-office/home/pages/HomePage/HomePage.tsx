@@ -3,7 +3,7 @@ import Helmet from "@mongez/react-helmet";
 import DisplayCounter from "./DisplayCounter";
 import "./HomePage.css";
 import UpdateCounterButton from "./UpdateCounterButton";
-import Caro from "./Caro";
+import Carousel from "./Carousel";
 
 
 export default function HomePage() {
@@ -12,7 +12,7 @@ export default function HomePage() {
       <Helmet title={trans("home")} appendAppName={false} />
       <div className="">
        {/* my carousel */}
-       <Caro/>
+       <Carousel/>
        {/* end */}
         {/* <UpdateCounterButton /> */}
         {/* <DisplayCounter /> */}

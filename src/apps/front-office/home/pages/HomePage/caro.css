@@ -1,13 +1,15 @@
-/* 
+
 .pre .sr-only{
   color:white;
   position: absolute;
-bottom: 50px;
+  bottom: 300px;
+  left: 40px;
 background: #000;
 }
 .next .sr-only{
   color:white;
   position: absolute;
-bottom: 50px;
+  bottom: 300px;
+  right: 160px;
 background: #000;
-} */
+}

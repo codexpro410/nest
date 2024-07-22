@@ -37,7 +37,7 @@ let sliderArray = [
 }
       </CarouselContent>
       <CarouselPrevious className='pre absolute -left-[2rem] bg-black text-white ' />
-      <CarouselNext  className='next absolute -right-[8rem]'/>
+      <CarouselNext  className='next absolute  -right-[8rem]'/>
     </Carousel>
   )
 }
