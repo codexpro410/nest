@@ -8,12 +8,11 @@ type SliderProps = {
   text2?:string;
   text3?:string;
 }
-export default function Slides({key,image,text1,text2,text3}:SliderProps) {
+export default function SliderSwiper({key,image,text1,text2,text3}:SliderProps) {
   return (
-<CarouselItem key={key}>
+
     <div className="p-1">
-      <Card>
-        <CardContent className="relative flex items-center justify-center p-6">
+        <div className="relative flex items-center justify-center p-6">
           <img src={image} className="bg-fit rounded-3xl text-[100px] min-w-[1180px] h-[500px] font-semibold"/>
           <section className="absolute top-10 left-20 flex flex-col justify-center gap-2 items-start">
                 <p className="pt-[20px] text-[72px] min-w-[200px]">{text1}</p>
@@ -28,9 +27,8 @@ export default function Slides({key,image,text1,text2,text3}:SliderProps) {
                 <button className="bg-[#3bb77e] h-12 rounded-3xl p-4 flex items-center text-white">Subscribe</button>
                 </div>
               </section>
-        </CardContent>
-      </Card>
+        </div>
     </div>
-  </CarouselItem>
+
   )
 }

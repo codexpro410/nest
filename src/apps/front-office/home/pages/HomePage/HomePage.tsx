@@ -1,9 +1,8 @@
 import { trans } from "@mongez/localization";
 import Helmet from "@mongez/react-helmet";
-import DisplayCounter from "./DisplayCounter";
 import "./HomePage.css";
-import UpdateCounterButton from "./UpdateCounterButton";
-import Carousel from "./Carousel";
+
+import Slider from "./Slider";
 
 
 export default function HomePage() {
@@ -11,11 +10,7 @@ export default function HomePage() {
     <>
       <Helmet title={trans("home")} appendAppName={false} />
       <div className="">
-       {/* my carousel */}
-       <Carousel/>
-       {/* end */}
-        {/* <UpdateCounterButton /> */}
-        {/* <DisplayCounter /> */}
+       <Slider/>
       </div>
     </>
   );
