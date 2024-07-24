@@ -38,7 +38,7 @@ export default function Slider() {
         {sliderArray.map((slide) => (
           <SwiperSlide key={slide.id}>
             <div className="relative flex items-center justify-center p-6 rounded-3xl">
-              <img src={slide.image} className="bg-cover bg-center bg-no-repeat object-cover rounded-3xl w-full h-[500px]"/>
+              <img src={slide.image} className="bg-cover bg-center bg-no-repeat object-cover rounded-3xl w-full h-[350px] lg:h-[500px]"/>
               <section className="absolute top-10 left-8 sm:left-20 flex flex-col justify-center gap-2 items-start">
                 <p className="pt-[20px] font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-[72px]">{slide.text1}</p>
                 <p className="pt-[20px] font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-[72px]">{slide.text2}</p>
